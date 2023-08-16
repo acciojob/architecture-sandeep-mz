@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+ body {
+      max-width: 1100px;
+      margin: 0 auto; /* Center the content horizontally */
+     background:#cbd6cb;
+	 padding: 20px; /* Add some padding around the content */
+    }
+.imageContainer {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    table {
+      border-collapse: none;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th:first-child, th:last-child,
+    td:first-child, td:last-child {
+      width: 200px;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+      width: 600px;
+    }
